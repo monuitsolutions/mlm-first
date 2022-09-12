@@ -1,0 +1,11 @@
+.main-container{
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+.main-container #deshboard{
+    /* border: solid 2px red; */
+    margin: 0px auto;
+    margin-top: 5px;
+    width: 83%;
+}

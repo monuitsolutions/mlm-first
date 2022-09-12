@@ -1,0 +1,76 @@
+.form{
+    /* border: solid 1px black; */
+    background-color: #ddd;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 481px;
+    margin: auto;
+    margin-top: 2%;
+    border-radius: 5px;
+}
+form{
+    width: 100%;
+}
+.form-groups{
+    padding: 5%;
+}
+.form-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.form-heading hr{
+    font-weight: 100 1rem;
+    width: 100%;
+    height: 2px;
+    background-color: #ddd;
+}
+.form-heading .heading{
+    text-align: center;
+    width: 100%;
+    padding: 2%;
+}
+.form-group-2{
+    width: 97%;
+    display: flex;
+    justify-content: center;
+}
+.form-group-2 .form-input-margin-1{
+    margin-right: 5%;
+}
+.form-group-2 .form-input-margin-2{
+    margin-left: 5%;
+}
+.form-group{
+    width: 95%;
+    margin: 2% 0%;
+}
+.form-group .form-label{
+    width: 100%;
+    font-size: 1rem;
+    /* padding: 2%; */
+}
+.form-control{
+    width: 100%;
+    font-size: 1rem;
+    padding: 2%;
+}
+.btn-submit-container{
+    width: 97%;
+    display: flex;
+}
+.btn-submit-container .btn{
+    width: 100px;
+}
+@media screen and (min-width: 360px) and (max-width: 768px){
+    .form{
+        margin: 3%;
+    }
+}
+@media screen and (min-width: 768px) and (max-width: 1280px){
+
+}
+
